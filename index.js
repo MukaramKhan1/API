@@ -23,8 +23,6 @@ app.delete('/delete', (req, res) => {
   res.send('Delete Page')
 })
 
-
-
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
 })
